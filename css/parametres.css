@@ -1,0 +1,27 @@
+div	
+{
+	background-color: rgba(0,0,0,.2);
+	height: 4.5vw;
+	width: 15vw;
+	border:2px solid black;
+	border-radius: 15vh;
+}
+input
+{
+	cursor: pointer;
+	transition: 1s transform;
+	height: 4.5vw;
+	width: 4.5vw;
+	border-radius: 100%;
+	background-color: white;
+	outline: none;
+}
+input:focus
+{
+	transform: translateX(10.5vw);
+	background-color: black;	
+}
+section
+{
+	float: right;
+}

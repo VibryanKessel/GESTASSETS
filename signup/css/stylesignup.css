@@ -1,0 +1,151 @@
+*
+{
+	user-select: none;
+	padding: 0;
+	margin: 0;
+}
+div
+{
+	/*border: solid black 2px;*/
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.ext
+{
+	/*background-image: url('images/logo6.jpg');*/
+	background-size: cover;
+    background-color: black;
+}
+.extint
+{
+	box-shadow: 1px 2px 5px 1px black inset;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: #FDFCFC;
+    border: 1px solid /*#ced4da*/ #E1008D;
+  	position: absolute;
+	top: 12.5%;
+	left: 25%;
+}
+.logo
+{
+
+	border: black solid 2px;
+	margin-top: 0;
+	position: relative;	
+	left: 3%;
+	height: 15%;
+	width: 20%;
+}
+img
+{
+	height: 100%;
+	width: 75%;
+}
+.int1
+{
+	display: flex;
+	flex-wrap:wrap;	
+	background-color: transparent;
+	position: absolute;
+	top: 15%;	
+	left: 3%;
+}
+.int2
+{
+	display: flex;
+	flex-wrap:wrap;
+	background-color: transparent;
+	position: absolute;
+	top: 33%;
+	left: 3%;
+}
+.int3
+{
+	display: flex;
+	flex-wrap:wrap;
+	background-color: transparent;
+	position: absolute;
+	top: 51%;
+	left: 3%;
+}
+.int4
+{
+	background-color: transparent;
+	position: absolute;
+	top: 69%;
+	left: 3%;
+}
+.int5
+{
+	flex-direction: column;
+	display: flex;
+	background-color: transparent;
+	position: absolute;
+	top: 90%;
+	left: 3%;
+}
+
+@media only screen and (min-height: 419px)
+{
+.int1
+{
+	flex-direction: column;
+}
+.int2
+{
+	flex-direction: column;
+}
+.int3
+{
+	flex-direction: column;
+}
+.int4
+{
+	display: flex;
+	flex-direction: column;
+}
+
+}
+
+
+@media only screen and (max-height: 419px)
+{
+	.int4
+{
+	display: inline-block;
+}	
+}
+label
+{
+	background:-webkit-linear-gradient(left,#E1008D 5%,black 60%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+	font-size: 1.5vw;
+	font-weight: 400;	
+}
+#mdp,#id,#nom,#prenom
+{
+	width:90%;
+}
+
+.fa
+{
+	cursor: pointer;
+			/*background:-webkit-linear-gradient(left,#D82F84 5%,black 75%,#8E1951 200%);*/
+	font-size: 	2.5vw;
+}
+header
+{
+	color: #E1008D;
+	font-weight: 800;
+	font-size: 2vw;
+	text-shadow: 5px 1px 1px black inset;
+	font-family: Yu Gothic UI Semibold;	
+}
+#mdp
+{
+	margin-left: 0;
+}

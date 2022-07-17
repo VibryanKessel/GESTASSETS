@@ -1,0 +1,171 @@
+*
+{
+	user-select: none;
+}
+
+.corps
+{
+	background-color: rgba(0,0,0,.5);
+	box-shadow: 5px 2px 5px 1px rgba(0,0,0,.5);
+}
+
+input[readonly]
+{
+	background:-webkit-linear-gradient(left,white 20%, #D82F84 85%);
+}
+
+a
+{
+	font-family: arial black;
+	cursor: pointer;
+	font-size: 2.7vw;
+	color: #D82F84;
+	text-shadow: .5px 1px 2px black;
+}
+
+#code,#periode
+{
+	cursor: not-allowed;
+}
+.nvtype
+{
+	float: left;
+	color: #1594CF;
+	font-size: 2vw;
+	font-weight: 600;
+}
+.retype
+{
+	float: right;
+	color: #1594CF;
+	font-size: 2vw;
+	font-weight: 600;
+	
+}
+.boxresult
+{
+	display: none;
+}
+input[type="submit"],input[type="reset"]
+{
+		font-weight: 800;
+		font-size: 1.3vw;
+}
+input[type="submit"]:hover,input[type="reset"]:hover
+{
+	background-color:rgba(224,48,144,.8);
+	color: white;
+}
+	.popup,.body
+	{
+		display: none;
+	}
+	@media only screen  and (min-width: 768px) 
+	{
+	input[type="reset"]
+	{
+		height: 30%;
+		width: 30%;
+		position: relative;
+		right: 35vw;
+	}
+	input[type="submit"]
+	{
+		position: relative;
+		left: 35vw;	
+		height: 30%;
+		width: 30%;
+	}
+	.br
+	{
+		display: none;
+	}
+
+	}
+
+	@media only screen  and (max-width: 768px)
+	{
+	.br
+	{
+		display: block;
+	}
+input[type="submit"],input[type="reset"]
+	{
+		position: absolute;
+		font-size: 3vw;
+		padding-left: .5em;
+		left: 	0;	
+		height: 8%;
+		width: 70vw;
+	}
+	}
+	@media only screen  and (min-width: 672px)
+	{
+	input[type="submit"],input[type="reset"]
+	{
+		left: 	16vw;	
+	}
+	}	
+
+	.popup
+	{
+		transition: 2s top;
+		height: 50vh;
+		box-shadow: 5px 2px 5px 1px rgba(0,0,0,.6) ;
+	    background:-webkit-linear-gradient(left,#D82F84 5%,purple 20%,blue 200%);
+		display: flex;
+		flex-wrap: wrap;
+		position: fixed;
+		z-index: 200;
+		border: solid black 2px;
+		width: 50vw;
+		top: -100vh;
+		left: 25vw;
+		padding-top:3%;  
+	}
+	.body
+	{
+		top: 0;
+		filter: blur(5px);	
+		z-index: 199;
+		position: absolute;
+		height: 100vh;
+		width: 100vw;
+		background: rgba(255,255,255,.7);
+	}
+
+	.submit,.reset
+	{
+		height: 25%;
+		width: 25%;
+		border-radius: 10px;
+	}
+	.tbpopup tr td
+	{
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 5vh;
+	}
+	
+	.tblpopup
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#select
+	{
+	font-size: 1vw;
+	color: white;
+	background:-webkit-linear-gradient(left,#D82F84 5%,white 100%);
+	border: white solid 1px;
+	}
+	#select:hover
+	{
+	box-shadow: 2px 2px 2px 2px black;
+	}
+	#select option
+	{
+	box-shadow: 2px 2px 2px 2px black;
+	background-color:white ;
+	color: #D82F84;
+	}

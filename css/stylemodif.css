@@ -1,0 +1,75 @@
+*
+{
+	user-select: none;
+}
+body
+{
+	background-image: url("../images/logo1.jpg");
+	background-size: cover;
+}
+
+.marquee
+{
+	color: #8E1951;
+	font-weight: 800;
+	font-size: 500%;
+	font-family: Bahnschrift Light;
+	text-shadow: 1px 1px 10px  white;
+}
+
+#code,#periode
+{
+	cursor: not-allowed;
+}
+ a i
+{
+	background:-webkit-linear-gradient(left,transparent .0005%,#8E1951 2%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;	
+    transition: 1s;
+}
+a i:hover
+{
+	background:-webkit-linear-gradient(left transparent .005%,#8E1951 2%,black 5%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;	
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+input[readonly]
+{
+	background:-webkit-linear-gradient(left,white 20%,rgba(142,25,81,.8) 85%);
+}
+label
+{
+
+    color:#E91E63;
+}
+
+.modifbtn
+{
+	background-color: #E91E63;
+	color: #CDD5DF;
+	border: none;
+	font-weight: 800;
+	font-size: 125%;
+	margin-left :20%; 
+	margin-right :20%; 
+	width: 20vw;
+	transition: 1s;
+}
+.modifbtn:hover
+{
+	color: #000000;
+	background-color: transparent;
+}
+.deconnect
+{
+	margin-right: 0;
+	border: solid 1px black;
+}
+.tablediv,.table2
+{
+	background-color: rgba(0,0,0,.7);
+}

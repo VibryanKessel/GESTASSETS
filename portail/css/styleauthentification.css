@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    /*border: black solid 2px;*/
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    -webkit-backdrop-filter: blur(4px);
+    /* assure la compatibilité avec safari */
+    backdrop-filter: blur(4px);
+    background-image: url('../../images/bg.jfif');
+    /*background-repeat: no-repeat;*/
+    background-position: center;
+    background-size: cover;
+}
+
+.ext {
+    /*background-color: #191919;*/
+}
+
+.bouton {
+    background-color: #E91E63;
+    width: 67%;
+    color: white;
+}
+
+.extint {
+    box-shadow: 3px 1px 3px 3px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, .5);
+    /*background-color: #FDFCFC;*/
+    /*border: 5px solid #ced4da black;*/
+    position: absolute;
+    top: 12.5%;
+    left: 25%;
+}
+
+.logo {
+    /*border: 5px solid #ced4da black;*/
+    margin-top: 0;
+    position: relative;
+    left: 3%;
+    height: 15%;
+    width: 20%;
+}
+
+img {
+    height: 100%;
+    width: 75%;
+}
+
+.int1 {
+    flex-direction: column;
+    background-color: transparent;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
+
+.int2 {
+    flex-direction: column;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+
+.int3 {
+    flex-direction: column;
+    background-color: transparent;
+    position: absolute;
+    top: 75%;
+}
+
+label {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+#mdp,
+#id {
+    width: 90%;
+    font-weight: 700;
+}
+
+.fa {
+    cursor: pointer;
+    /*background:-webkit-linear-gradient(left,#D82F84 5%,black 75%,#8E1951 200%);*/
+    font-size: 2.5vw;
+}
