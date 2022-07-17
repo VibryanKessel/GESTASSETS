@@ -72,7 +72,7 @@ $champ7="periode";
 </div>
 <br>
 <div class="barracc container-fluid col-12 d-flex">
-<a class="panne panneitem col-3 fs-3"><center>PANNE DECLAREE</center></a><a class=" panneitem col-3 fs-3" href="listcas.php"><center>ETAT PANNES</center></a><a class=" panneitem col-3 fs-3" href="listresolutions"><center>ETAT RESOLUTIONS</center></a><a class=" panneitem col-3 fs-3" href="pannes_solutions.php"><center>REPERTOIRE SOLUTIONS</center></a>
+<a class="panne panneitem col-3 fs-3"><center>PANNE DECLAREE</center></a><a class=" panneitem col-3 fs-3" href="listcas.php"><center>ETAT PANNES</center></a><a class=" panneitem col-3 fs-3" href="listresolutions.php"><center>ETAT RESOLUTIONS</center></a><a class=" panneitem col-3 fs-3" href="pannes_solutions.php"><center>REPERTOIRE SOLUTIONS</center></a>
 </div>
 </div>
 
